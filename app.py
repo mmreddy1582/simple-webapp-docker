@@ -23,7 +23,7 @@ cursor = conn.cursor()
 def main():
     return "Welcome!"
 
-@app.route('/how are you')
+@app.route('/how are you today')
 def hello():
     return 'I am good, how about you?'
 
